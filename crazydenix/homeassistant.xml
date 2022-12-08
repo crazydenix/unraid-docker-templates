@@ -9,15 +9,15 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/linuxserver/docker-homeassistant/issues/new/choose</Support>
   <Project>https://www.home-assistant.io/</Project>
-  <Overview>Home Assistant Core(https://www.home-assistant.io/) - Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.</Overview>
-  <Category>Other:</Category>
+  <Overview>Home Assistant Core</Overview>
+  <Category>HomeAutomation:</Category>
   <WebUI>http://[IP]:[PORT:8123]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/crazydenix/unraid-docker-templates/main/crazydenix/images/homeassistant.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1670484910</DateInstalled>
+  <DateInstalled>1670485105</DateInstalled>
   <Requires/>
   <Config Name="Port: 8123" Target="8123" Default="8123" Mode="tcp" Description="Application WebUI, only use this if you are not using host mode." Type="Port" Display="always" Required="false" Mask="false">8123</Config>
   <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/homeassistant" Mode="rw" Description="Home Assistant config storage path." Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/homeassistant</Config>
