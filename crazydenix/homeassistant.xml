@@ -13,11 +13,11 @@
   <Category>Other:</Category>
   <WebUI>http://[IP]:[PORT:8123]</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/crazydenix/unraid-docker-templates/blob/main/crazydenix/images/homeassistant.png</Icon>
+  <Icon>https://raw.githubusercontent.com/crazydenix/unraid-docker-templates/main/crazydenix/images/homeassistant.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1670484688</DateInstalled>
+  <DateInstalled>1670484910</DateInstalled>
   <Requires/>
   <Config Name="Port: 8123" Target="8123" Default="8123" Mode="tcp" Description="Application WebUI, only use this if you are not using host mode." Type="Port" Display="always" Required="false" Mask="false">8123</Config>
   <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/homeassistant" Mode="rw" Description="Home Assistant config storage path." Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/homeassistant</Config>
